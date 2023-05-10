@@ -3,9 +3,11 @@
  */
 package gradle.basic.structure.dep.error;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return StringUtils.isBlank(" ");
     }
 
     public static void main(String[] args) {
