@@ -7,7 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 
 public class App {
     public String getGreeting() {
-        return StringUtils.isBlank(" ");
+        return StringUtils.isBlank("  ");
     }
 
     public static void main(String[] args) {
